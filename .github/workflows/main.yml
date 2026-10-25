@@ -5,7 +5,7 @@ on:
     - main 
 jobs:
  first-job:
-  runs_on: ubuntu_latest
+  runs-on: ubuntu_latest
   steps:
    - name: say hello
      run: echo hello from Hiqode
