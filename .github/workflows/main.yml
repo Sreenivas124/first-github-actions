@@ -4,8 +4,8 @@ on:
   branches:
     - main: 
 jobs:
- first-job
-  runs_on: ubuntu latest
+ first-job:
+  runs_on: ubuntu:latest
   steps:
    - name: say hello
      run: echo hello from Hiqode
